@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply px-6 py-2 rounded-full font-[Open_Sans] transition duration-300;
+  }
+  .btn-white {
+    @apply border border-[#EB1D2A] font-[700] text-[#EB1D2A];
+  }
+  .btn-red {
+    @apply bg-[#EB1D2A] font-[700] text-[#FFFFFF];
+  }
+
+  .hero-section {
+    background: linear-gradient(
+        to left,
+        rgba(2, 20, 35, 0.7),
+        rgba(2, 20, 35, 0.6)
+      ),
+      url("/images/hero-section.png");
+    @apply bg-cover bg-center h-screen flex  flex-col items-center justify-center text-white;
+  }
+  .why-choose-us-section {
+    background: linear-gradient(
+        rgba(0, 14, 26, 1),
+        rgba(0, 14, 26, 0.8)
+      ),
+      url("/images/why-choose-us-section-background.png");
+    @apply bg-cover bg-center flex  flex-col items-center justify-center text-white py-11;
+  }
+  .what-we-offer {
+    /* background: linear-gradient(
+        rgba(243, 243, 243, 0.5),
+        rgba(243, 243, 243, 0.8),
+        rgba(243, 243, 243, 0.4),
+      ), */
+     background:  url("/images/what-we-offer-bg.png");
+    @apply bg-cover bg-center  text-white py-11 px-6;
+  }
+  .what-we-offer-right {
+    background: linear-gradient(
+      rgba(7, 27, 62, 0),
+      rgba(7, 27, 62, 0.7) 
+      ),
+      url("/images/image\ 204.png");
+    @apply bg-cover bg-center  text-white pl-4 sm:pl-10 pr-8 sm:pr-14 pt-16 pb-8 rounded-l-2xl;
+  }
+  .border-custom {
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  .footer-border{
+    border-color: (255, 255, 255, 0.2);
+  }
+}

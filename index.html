@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="flex items-center justify-between py-4 px-4 md:px-25">
+          <div>
+            <img src="/images/logo.png" alt="" class="h-10" />
+          </div>
+
+          <!-- hemburge menu for mobile -->
+          <div class="md:hidden">
+            <button id="menu-btn" class="text-2xl focus:outline-none">
+              ☰
+            </button>
+          </div>
+          <div class=" hidden lg:flex gap-6 items-center">
+            <a href="#" class="font-[Open_Sans] hover:font-bold hover:underline"
+              >Home</a
+            >
+            <a href="#" class="font-[Open_Sans] hover:font-bold hover:underline"
+              >About</a
+            >
+            <a href="#" class="font-[Open_Sans] hover:font-bold hover:underline"
+              >Services</a
+            >
+            <a href="#" class="font-[Open_Sans] hover:font-bold hover:underline"
+              >Why choose Us</a
+            >
+            <a href="#" class="font-[Open_Sans] hover:font-bold hover:underline"
+              >Who Are We</a
+            >
+            <a href="#" class="btn btn-white">Contact Us</a>
+            <a href="#" class="btn btn-red">Book a Call</a>
+          </div>
+        </div>
+      </nav>
+      <section class="hero-section">
+        <h1
+          class="text-3xl md:text-5xl lg:text-6xl font-bold text-center font-[Nuckle]"
+        >
+          <span class="block">Welcome to</span>
+          <span class="block">Sigma Mortage</span>
+        </h1>
+        <p
+          class="font-[Open_Sans] text-base md:text-lg lg:text-xl text-center max-w-3xl mx-auto mt-4 leading-relaxed"
+        >
+          your trusted partner in private lending solutions. With a commitment
+          to providing flexible, tailored financial solutions, we serve both
+          mortgage brokers and borrowers across Ontario, British Columbia,
+          Alberta and Nova Scotia.
+        </p>
+      </section>
+    </header>
+    <!-- know about sigma section -->
+    <section class="bg-[#F1F1F1] py-16">
+      <!-- ups section -->
+      <div class="lg:flex lg:relative">
+        <img src="/images/Mask group.png" alt="" class="h-auto lg:w-1/2 z-0" />
+        <div
+          class="rounded-md text-[white] bg-[#0561AC] lg:w-1/2 z-1 shadow-[0px_0px_24px_0px_#D1CDC866] opacity-[76%] p-6 lg:absolute lg:right-15 lg:top-1/2 lg:transform lg:-translate-y-1/2"
+        >
+          <h2 class="font-[Nuckle] text-4xl mb-4">Know About Sigma</h2>
+          <p class="mb-4 font-[Open_Sans] font-normal">
+            Whether you’re seeking short-term financing or unconventional
+            mortgage options, we offer competitive and efficient lending
+            services that go beyond traditional banks.
+          </p>
+          <button class="btn btn-red">Learn More</button>
+        </div>
+      </div>
+      <!-- down section -->
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-10 sm:px-36 gap-6 mt-10"
+      >
+        <div>
+          <h3 class="font-[Nuckle] text-3xl mb-4 font-bold text-black">
+            Who We Are
+          </h3>
+          <p class="mb-4 font-[Open_Sans]">
+            At Sigma, we are a team of experienced professionals with deep
+            expertise in the Canadian real estate market and private lending.
+            Our approach is simple: we listen to your needs and craft a
+            financing solution that aligns with your goals. Whether you're
+            facing time constraints, need a custom solution for an
+            unconventional property, or navigating complex financial situations,
+            we’re here to help.
+          </p>
+          <button class="btn btn-red">Learn More</button>
+        </div>
+        <div class="mx-auto h-full max-w-sm overflow-hidden flex flex-col">
+          <img src="/images/group1.png" alt="" height="" class="" />
+          <div class="bg-[white] rounded-b-2xl py-3 px-5">
+            <h3 class="font-[Nuckle] text-3xl mb-2 font-bold text-black">
+              Leah’s Bio
+            </h3>
+            <p class="max-w-full w-full font-[Open_Sans] break-words">
+              Leah Zlatkin is a distinguished mortgage broker in Canada,
+              celebrated for her honest and straightforward approach to mortgage
+              advice.
+            </p>
+          </div>
+        </div>
+        <div class=" mx-auto h-full max-w-sm overflow-hidden flex flex-col">
+          <img src="/images/group2.png" alt="" />
+          <div class="bg-[white] rounded-b-2xl py-3 px-5">
+            <h3 class="font-[Nuckle] text-3xl mb-4 font-bold text-black">
+              Elan’s Bio
+            </h3>
+            <p class="max-w-full w-full font-[Open_Sans] break-words">
+              Known for his straight-talk and no-nonsense approach, Elan
+              Weintraub has an extensive background in marketing, client
+              service, and of course, mortgages
+            </p>
+          </div>
+        </div>
+        <div class="mx-auto h-full max-w-sm overflow-hidden flex flex-col">
+          <img src="/images/group3.png" alt="" class="w-full object-cover" />
+          <div class="bg-[white] rounded-b-2xl py-3 px-5">
+            <h3 class="font-[Nuckle] text-3xl mb-4 font-bold text-black">
+              Shawn’s Bio
+            </h3>
+            <p class="max-w-full font-[Open_Sans] w-full break-words">
+              Known for his straight-talk and no-nonsense approach, Elan
+              Weintraub has an extensive background in marketing, client
+              service, and of course, mortgages
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why choose us section start here -->
+    <section class="why-choose-us-section">
+      <h3 class="font-[Nuckle] text-4xl font-bold text-white mb-10">
+        why choose us
+      </h3>
+      <div
+        class="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-16 lg:grid-cols-4 gap-4 px-8 items-stretch"
+      >
+        <div class="relative">
+          <div
+            class="absolute top-[-44px] left-1/2 transform -translate-x-1/2 bg-white h-[88px] w-[88px] rounded-full flex justify-center items-center"
+          >
+            <img src="/images/customer (2) 1.png" alt="" />
+          </div>
+          <div
+            class="border border-custom rounded-lg text-center h-full flex-1 p-6 flex flex-col gap-4"
+          >
+            <h4 class="font-[Nuckle] mt-6 text-2xl font-semibold text-white">
+              Local Expertise
+            </h4>
+            <p class="font-[Urbanist] text-white leading-[28px]">
+              We have a deep understanding of the real estate market and work
+              closely with brokers and borrowers to ensure successful outcomes.
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <div
+            class="absolute top-[-44px] left-1/2 transform -translate-x-1/2 bg-[#EB1D2A] h-[88px] w-[88px] rounded-full flex justify-center items-center"
+          >
+            <img src="/images/solution (3) 1.png" alt="" />
+          </div>
+          <div
+            class="border border-custom rounded-lg text-center h-full flex-1 p-8 bg-white flex flex-col gap-3"
+          >
+            <h4 class="font-[Nuckle] mt-6 text-2xl font-semibold text-black">
+              Flexible Solutions
+            </h4>
+            <p class="font-[Urbanist] text-black leading-[28px]">
+              Unlike traditional lenders, we specialize in offering financing
+              options tailored to your unique needs, even when time is of the
+              essence.
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <div
+            class="absolute top-[-44px] left-1/2 transform -translate-x-1/2 bg-white h-[88px] w-[88px] rounded-full flex justify-center items-center"
+          >
+            <img src="/images/approved-idea 1.png" alt="" />
+          </div>
+          <div
+            class="border border-custom rounded-lg text-center h-full flex-1 p-8 flex flex-col gap-3"
+          >
+            <h4 class="font-[Nuckle] mt-6 text-2xl font-semibold text-white">
+              Fast Approvals
+            </h4>
+            <p class="font-[Urbanist] text-white leading-[28px]">
+              We streamline the approval process, making it easier for you to
+              access funds when you need them most.
+            </p>
+          </div>
+        </div>
+        <div class="relative">
+          <div
+            class="absolute top-[-44px] left-1/2 transform -translate-x-1/2 bg-white h-[88px] w-[88px] rounded-full flex justify-center items-center"
+          >
+            <img src="/images/relationships (1) 1.png" alt="" />
+          </div>
+          <div
+            class="border border-custom rounded-lg text-center p-8 flex flex-col gap-3"
+          >
+            <h4 class="font-[Nuckle] mt-6 text-2xl font-semibold text-white">
+              Strong Relationships
+            </h4>
+            <p class="font-[Urbanist] text-white leading-[28px]">
+              We pride ourselves on the lasting relationships we build with both
+              brokers and borrowers, ensuring trust and reliability in every
+              transaction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="what-we-offer">
+      <div class="flex flex-col sm:flex-row justify-between items-center px-20 mb-10">
+        <h3 class="font-[Nuckle] text-3xl sm:text-4xl md:text-5xl font-bold text-black">
+          What We Offer
+        </h3>
+        <a href="#" class="btn btn-red">View All</a>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 px-10 sm:px-20 lg:pl-20">
+        <!-- left -->
+        <div class="flex flex-col gap-6">
+          <div class="flex items-center justify-between">
+            <p class="font-[Nuckle] text-xl sm:text-2xl font-medium text-[#222222]">
+              Residential and Commercial Mortgages
+            </p>
+            <img src="/images/Vector (1).png" alt="" class="h-4 w-4 sm:h-7 sm:w-7" />
+          </div>
+          <div class="border border-[#FF4500]"></div>
+          <div class="flex items-center justify-between">
+            <p class="font-[Nuckle] text-xl sm:text-2xl font-medium text-[#222222]">
+              Bridge Financing
+            </p>
+            <img src="/images/Vector (3).png" alt="" class="h-4 w-4 sm:h-7 sm:w-7" />
+          </div>
+          <div class="border border-[#DDDDDD]"></div>
+
+          <div class="flex items-center justify-between">
+            <p class="font-[Nuckle] text-xl sm:text-2xl font-medium text-[#222222]">
+              Equity Take-Outs
+            </p>
+            <img src="/images/Vector (3).png" alt="" class="h-4 w-4 sm:h-7 sm:w-7" />
+          </div>
+          <div class="border border-[#DDDDDD]"></div>
+
+          <div class="flex items-center justify-between">
+            <p class="font-[Nuckle] text-xl sm:text-2xl font-medium text-[#222222]">
+              Construction Financing
+            </p>
+            <img src="/images/Vector (3).png" alt="" class="h-4 w-4 sm:h-7 sm:w-7" />
+          </div>
+          <div class="border border-[#DDDDDD]"></div>
+
+          <div class="flex items-center justify-between">
+            <p class="font-[Nuckle] text-xl sm:text-2xl font-medium text-[#072022]">
+              Second Mortgages
+            </p>
+            <img src="/images/Vector (3).png" alt="" class="h-4 w-4 sm:h-7 sm:w-7" />
+          </div>
+        </div>
+        <!-- right -->
+        <div class="what-we-offer-right">
+          <h3 class="font-[Nuckle]  text-3xl sm:text-4xl md:text-5xl font-bold text-white">
+            Residential and Commercial Mortgages
+          </h3>
+          <p class="font-[Urbanist] text-[13px] sm:text-[18px] text-white">
+            Are you a mortgage broker, Realtor, or finance professional? Book an
+            introduction to private lending meeting for your office today...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- investor and private lander section -->
+    <section
+      class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-14 md:px-10 px-8 sm:px-14 py-28"
+    >
+      <img src="/images/investor.png" alt="" />
+      <div class="flex flex-col gap-4">
+        <h3 class="font-[Nuckle] font-[700] text-5xl md:text-4xl text-black">
+          Investors and private lenders
+        </h3>
+        <p class="font-[Urbanist] font-normal md:text-[14px] text-black">
+          We are working with experienced, high-net worth private lenders to
+          help them place their funds into mortgage investments -If you are
+          interested in learning more about private lending options.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-items-start items-center gap-4">
+          <a href="#" class="btn btn-red">Book a Time</a>
+          <a href="#" class="btn btn-white">Submit a File</a>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[#1E2020] text-white">
+      <div
+        class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 px-10  sm:px-30 py-24 gap-20"
+      >
+        <div class="flex flex-col">
+          <img src="/images/logo-footer.png" alt="" class="w-auto"/>
+          <p class="font-[Open_Sans] font-[14px] lg:mt-10">
+            Welcome to Sigma Mortgage, your trusted partner in private lending
+            solutions. With a commitment to providing flexible.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="flex flex-col gap-2">
+          <a href="#" class="font-[Open_Sans] text-[20px] font-[600] mt-2"
+            >Quick Links</a
+          >
+          <a href="#" class="font-[Open_Sans] font-[14px]">Home</a>
+          <a href="#" class="font-[Open_Sans] font-[14px]">About</a>
+          <a href="#" class="font-[Open_Sans] font-[14px]">Services</a>
+          <a href="#" class="font-[Open_Sans] font-[14px]">Why Choose Us</a>
+          <a href="#" class="font-[Open_Sans] font-[14px]">Who are we</a>
+          <a href="#" class="font-[Open_Sans] font-[14px]">Contact us</a>
+        </div>
+
+        <!-- Contact info -->
+        <div>
+          <p class="font-[Open_Sans] text-[20px] font-[600]">Contact info</p>
+          <div class="flex items-center gap-3 mt-4">
+            <div
+              class="bg-[#EB1D2A] rounded-full h-12 w-12 flex justify-center items-center"
+            >
+              <img src="/images/phone.png" alt="" />
+            </div>
+            <p class="font-[Open_Sans] font-[14px]">6475014663</p>
+          </div>
+          <div class="flex items-center gap-3 mt-2">
+            <div
+              class="bg-[#EB1D2A] rounded-full h-12 w-12 flex justify-center items-center"
+            >
+              <img src="/images/email.png" alt="" />
+            </div>
+            <p class="font-[Open_Sans] font-[14px]">info@sigmamortgage.ca</p>
+          </div>
+          <div class="flex items-center gap-3 mt-2">
+            <div
+              class="bg-[#EB1D2A] rounded-full h-12 w-12 flex justify-center items-center"
+            >
+              <img src="/images/location.png" alt="" />
+            </div>
+            <p class="font-[Open_Sans] font-[14px]">
+              85 Scarsdale Rd 107<br />
+              Toronto ON M3B 2R2
+            </p>
+          </div>
+          <div class="flex items-center gap-3 mt-4">
+            <p>Book a Call</p>
+            <img src="/images/book-call.png" alt="" />
+          </div>
+        </div>
+
+        <!-- Support -->
+        <div>
+          <p class="font-[Open_Sans] text-[20px] font-[600]">Support</p>
+          <p class="font-[Open_Sans] text-[14px] mt-4">Terms & Conditions</p>
+          <p class="font-[Open_Sans] text-[14px] mt-2">Privacy Policy</p>
+        </div>
+      </div>
+
+      <!-- copy right -->
+      <div class="border footer-border"></div>
+      <div
+        class="flex flex-col md:flex-row items-center justify-between px-10 text-center md:px-30 py-4"
+      >
+        <p class="font-[Open_Sans] text-[14px]">
+          Copyright © 2024 Sigma Mortgage. All Rights Reserved
+        </p>
+        <div class="flex items-center gap-4">
+          <p class="font-[Open_Sans] text-[14px] font-[600]">Follow Us:</p>
+          <div class="flex items-center gap-3">
+            <a href="#">
+              <img src="/images/facebook.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="/images/instagram.png" alt="" />
+            </a>
+            <a href="#">
+              <img src="/images/twitter.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
